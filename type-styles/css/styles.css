@@ -1,0 +1,81 @@
+
+html{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background-color: rgb(255, 199, 167);
+}
+.title{
+    font-size: 40px;
+    background-color: rgb(255, 199, 167);
+    color: white;
+    padding: initial;
+}
+h1{
+    margin-bottom: -0.2em;
+    margin-bottom: -0.01em;
+}
+h3{
+    font-size: 20px;
+    line-height: 20%;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+    margin-top: auto;
+}
+sub{
+    font-size: 20px;
+    color: rgb(183, 68, 23);
+}
+div{
+    background-color: white;
+    padding:50px ;
+    border-radius: 50px;
+}
+.weight{
+    margin: 100px;
+}
+.style{
+    margin: 100px;
+}
+.spacing{
+    margin: 100px;
+}
+.decoration{
+    margin: 100px;
+}
+.transform{
+    margin:100px
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.em1{
+    letter-spacing: 0.3em;
+}
+.em2{
+    letter-spacing: -0.06em;
+}
+.underline{
+    text-decoration: underline;
+}
+.linethrough{
+    text-decoration: line-through;
+}
+.overline{
+    text-decoration: overline;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
