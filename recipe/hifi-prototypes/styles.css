@@ -1,0 +1,25 @@
+.img1{
+display: flex;
+margin: 30px;
+height: 300px;
+}
+.img2{
+    display: flex;
+    margin: 30px;
+    height: 300px;
+}
+.img3{
+    display: flex;
+    margin: 30px;
+    height: 300px;
+}
+.img4{
+    display:flex;
+    margin: 30px;
+    height: 300px;
+}
+h1{
+    display:block;
+    margin: 30px;
+    height: 300px;
+}
