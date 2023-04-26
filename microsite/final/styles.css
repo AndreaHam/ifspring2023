@@ -289,8 +289,8 @@ margin-bottom: 100px;
     }
   
     .slick-slide img{
-        width: 1080px;
-        padding-right: 100px;
+           width: 500px;
+    padding-left: 314px;
        
     }
     .career-text{
@@ -322,9 +322,7 @@ margin-bottom: 100px;
     height: 0px;
 
  }
-.slick-track{
-    padding-right: 100px;
-   }
+
  .item-container img:nth-child(even){
     height: 0px;
     position: relative;
