@@ -322,7 +322,9 @@ margin-bottom: 100px;
     height: 0px;
 
  }
-
+.slick-track{
+    padding-right: 100px;
+   }
  .item-container img:nth-child(even){
     height: 0px;
     position: relative;
