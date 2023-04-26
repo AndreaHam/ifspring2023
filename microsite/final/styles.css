@@ -1,0 +1,362 @@
+/* .navbar-list{
+    display: none;
+}
+.navbar img{
+    width: 42px;
+} */
+/* html{
+    margin-left: 100px;
+    margin-right: 100px;
+} */
+
+body{
+    margin: 0;
+}
+span{
+    left: -77px;
+    top: 10px;
+    position: relative;
+}
+.span{
+    left: 19px;
+}
+.body{
+padding-left: 100px;
+padding-right: 100px;
+}
+p{
+    font-family: "roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+em{
+    font-family: "roboto", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+h1{
+    text-align: center;
+}
+h3, h1, h2{
+    font-family: "roboto", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+p, em, h3{
+    text-align: justify;
+}
+.career-text{
+    margin-top: 50px;
+}
+.header{
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    /* transition: 0.5s; */
+    padding-top: 60px;
+  }
+  
+  .nav {
+    padding: 8px 8px 8px 32px;
+    /* text-decoration: none; */
+    font-size: 30px;
+    color: white;
+    display: block;
+    /* transition: 0.3s; */
+
+  }
+  
+  .subnav{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    display: block;
+    /* transition: 0.3s; */
+ 
+  }
+  
+  .sidenav nav:hover {
+    color: #f1f1f1;
+  }
+  .nav-button{
+    position:fixed;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  @media screen and (max-height: 800px) {
+    .sidenav {padding-top: 15px;}
+    .nav{font-size: 25px;}
+    .subnav{font-size: 18px;}
+  }
+  .homepage h1{
+    font-family: "alternate-gothic-condensed-a", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 100px;
+  }
+  .homepage{
+    display: flex;
+    font-size: 18px;
+    width: 463px;
+    margin-left: 100px;
+    margin-right: 55px;
+
+  }
+  .body-homepage{
+    display: flex;
+  }
+  .title-description, .title{
+    text-align: center;
+    margin-top: 50px;
+
+  }
+  .homepage-img img{
+    width: 350px;
+  }
+  .homepage-img{
+    position: relative;
+    top: -178px;
+  }
+  .homepage div{
+    width: 1000px;
+  }
+.title-description{
+font-size: 18px;
+  }
+ .copyright{
+    color:white ;
+ }
+ .photo-career, .legacy{
+    margin-left: 100px;
+    margin-right: 100px;
+ }
+ .career-img img, .single-item{
+    width: 400px;
+    display: block;
+ margin-right: 100px;
+  margin-top: 50px;
+
+ }
+ #legacy-text, .legacy-img {
+    display: block;
+    margin-right: 100px;
+     margin-top: 50px;
+    width: 600px;
+ }
+ .work-title p{
+    position: relative;
+    /* right: -228px; */
+    /* top: -73px; */
+ }
+ .work-title-post p{
+    position: relative;
+    /* right: -177px; */
+    /* top: -532px; */
+ }
+ .work-header h3{
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom: 41px;
+    font-size: 30px;
+ }
+.works{
+    list-style-type: none;
+   width: 500px;
+   height: 824px;
+   display: block;
+   margin-left: 242px;
+   margin-top: -40px;
+    position: relative;
+    overflow: hidden;
+}
+.slider-for img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.slider-nav{
+    margin-top: 60px;
+}
+.slider-nav img:hover{
+    opacity: 60%;
+    transition: all 0.5s;
+}
+.img-text p{
+display: block;
+text-align: center;
+}
+footer{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/57c921f6893fc02a0ad26bfc/1668638389576-0YGQKGT878C90O94B1D6/FH_Forget-me-not%28%E6%AF%8B%E5%BF%98%E6%88%91%29_PPL.jpg?format=2500w");
+filter: grayscale(100%);
+    margin-top: 100px;
+    padding-bottom: 40px;
+}
+.footer-text {
+    color: black;
+}
+.footer-text a{
+padding-right: 10px;
+    color: black;
+}
+.footer-text p, .footer-text h3{
+    text-align: center;
+}
+.footer-logo{
+    text-decoration: none;
+    font-size: 23px;
+    position: relative;
+    bottom: -40px;
+}
+.nav-footer {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/57c921f6893fc02a0ad26bfc/1668638389576-0YGQKGT878C90O94B1D6/FH_Forget-me-not%28%E6%AF%8B%E5%BF%98%E6%88%91%29_PPL.jpg?format=2500w");
+    filter: grayscale(100%);
+    margin-top: 100px;
+    padding-bottom: 40px;
+}
+.nav-footer-text {
+    color: black;
+}
+.nav-footer-text a{
+    padding-right: 10px;
+        color: black;
+    }
+.nav-footer-text p, .nav-footer-text h3{
+    text-align: center;
+}
+.nav-footer-logo {
+    color: black;
+    text-decoration: none;
+    font-size: 23px;
+    position: relative;
+    bottom: -40px;
+}
+.contact h2, .contact p{
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+#legacy-text{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+margin-top: 100px;
+}
+#legacy-text p{
+    text-align: center;
+}
+span.homepage{
+    left: -75px;
+}
+.quote{
+    text-align: justify;
+}
+
+@media(max-width:600px){
+    body{
+        padding: 0px;
+    }
+    .career-text, .photo-career h1, .slick-slide img, .contact{
+       width: 300px;
+  padding-left: 50px;
+  padding-right: 50px;
+margin-bottom: 100px;
+
+    }
+    .slick-list{
+        overflow: visible;
+    }
+    .slider-nav{
+        display: none;
+    }
+  
+    .slick-slide img{
+        width: 1080px;
+        padding-right: 100px;
+       
+    }
+    .career-text{
+        padding-top: 682px;
+    }
+    .career-img{
+        overflow-x: hidden;
+        position: absolute;
+    }
+    /* .photo-career{
+        margin: auto;
+    } */
+    footer {
+        display: none;
+    }
+    .work-header h3, .img-text p{
+        font-size: 60px;
+        width: 1186px;
+    }
+   
+}
+/* @media(min-width:600px){
+    span{
+        font-size: 66px;
+    }
+} */
+@media(max-width:1000px){
+ .item-container-two img{
+    height: 0px;
+
+ }
+
+ .item-container img:nth-child(even){
+    height: 0px;
+    position: relative;
+    bottom: 10px;
+ }
+ .item-container img:nth-child(odd){
+    position: relative;
+    bottom: -329px;
+    width: 500px;
+    right: 122px;
+} 
+.sliding-element{
+    height: 0px;
+ }
+ .homepage h1, .homepage p{
+
+position: relative;
+right: -42px;
+ }
+.homepage-body{
+    overflow: scroll !important;
+}
+footer{
+padding-bottom: 355px;
+}
+.nav-footer {
+    padding-bottom: 355px;
+}
+.flex{
+    display: block;
+}
+}
+ 
+
+
+
+    
