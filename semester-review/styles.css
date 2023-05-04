@@ -1,0 +1,68 @@
+body{
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: auto;
+    font-family: "larken", sans-serif;
+font-weight: 500;
+font-style: normal;
+
+}
+header{
+    text-align: center;
+}
+header h1{
+    font-size: 50px;
+    color: orange;
+}
+header h2{
+    margin-top: -34px;
+}
+.portfolio{
+    display: inline-block;
+    width: 322px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    border: 1px solid  white;
+    box-shadow: 1px 2px 15px gray;
+    
+}
+img{
+    width: 300px;
+margin-left: 11px;
+    margin-top: 10px;
+}
+.corndog{
+    height: 353px;
+}
+footer{
+   margin: 30px;
+
+}
+.footer p{
+    font-size: 13px;
+    text-align: center;
+
+}
+.email{
+    color: orange;
+}
+.description{
+    margin-left: 11px;
+    margin-right: 11px;
+
+    margin-top: 10px;
+
+}
+.description p{
+  font-size: 15px;
+}
+.portfolio:hover{
+    box-shadow: 2px 4px 20px orange;
+    transition: all 0.1s;
+}
+.description:hover{
+    color: orange;
+    transition: all 0.1s;
+}
