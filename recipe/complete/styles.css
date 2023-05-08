@@ -1,148 +1,394 @@
-html{
-    background-color: #FFDD9A;
-   
-    font-family: 'Archivo Narrow', sans-serif;
-    max-width: 1920px;
-    font-weight: 400;
-    font-style: normal;    
-    margin-right: auto;
-    margin-left: auto;
 
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #FFD166;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+body{
+    background-color: #FFF0CC;
+     margin: 0;
+     overflow-x: hidden;
+}
+div{
+    margin: auto;
+}
+main{
+  
+    margin-top: 50px;
+}
+.oval{
+  
+    height: 67px;
+    width: 492px;
+    background-color: white;
+    padding-right: 88px;
+    position: absolute;
+    left: 0px;
+}
+/* .header{
+    height: 67px;
+    width: 492px;
+    background-color: white;
+ 
+} */
+.upper{
+    font-family: 'Kalam', cursive;
+    display: flex;
+    font-size: 10px;
+    margin-left: 65px;
+    margin-top: 4px;
     
 }
-.back_img{
-    background-image: url("https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/364671.jpg?resize=1200:*");
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-width: 600px;
+.upper h3{
+    margin-right: 60px;
+}
+.lower{
+    font-family: 'Kalam', cursive;
+   font-size: 15px;
+   display: flex;
+   margin-left: 111px;
+}
+.upper h4{
+    font-size: 20px;
+    margin: auto;
+    padding-right: 10px;
     
 }
 .title{
-    font-size: 20px;
-    text-align: center;
-    line-height: 1.3;
-    color: white;
+    font-family: 'Kalam', cursive;
+   font-size: 50px;
+   text-align: center;
+   color: #CC7211;
+   position: absolute;
+   left: 200px;
+    top: 80px;
+}
+.scroll-down{
+    font-family: 'Kalam', cursive;
+    font-size: 17px;
+    position: absolute;
+    top: 626px;
+    left: 300px;
+}
+.right img{
+/* position: absolute;
+right: -3px;
+top: 60px; */
+margin-left: 754px;
+margin-top: -56px;
+
+}
+.content{
+    display: flex;
+    margin-top: 90px;
+   
     
 }
-
-.cooktime{
-    font-size:18px;
-    text-align: center;
-    line-height: 1.5;
-   margin: 40px;
-   background: rgba(255, 255, 255, 0.6);
-   min-width: 600px;
-   margin-right: auto;
-   margin-left: auto;
-   padding-top: 20px;
-   padding-bottom: 20px;
-
-   
-
-} 
-.img1{
-    width:300px;
-   display: block;
-   margin-right: auto;
-   margin-left: auto;
-   padding-top: 30px;
-   position: relative;
-   
-   }
-   .description{
-    font-size: 18px;
-    text-align: center;
-    opacity: initial;
-    min-width: 600px;
-   
+.head{
+    margin: auto;
+}
+.left-img img{
+    width: 500px;
+    height: 634px;
+    border-radius: 50px;
+    /* border-bottom-left-radius: 50px; */
+    object-fit: cover;
+}
+.block{
+    background-color: white;
+    width: 500px;
+    border-radius: 50px;
+    /* border-bottom-right-radius: 50px; */
 
 }
-.ingtitle, .instruction{
+.description, .ingredient{
+    font-family: 'Kalam', cursive;
+    margin: 50px;
+    /* text-align: justify; */
+}
+.description h3, .ingredient h3, .recipe h3{
+    font-family: 'Kalam', cursive;
+    font-size: 33px;
+    color: #CC7211;
+}
+.description p{
+    font-size: 25px;
+    color: #FFD166;
+    margin-top: -22px;
+}
+
+/* .ingredient h3{
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+    color: #CC7211; 
+    margin-bottom: -8px;
+} */
+.ingredient p, .ingredient li{
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 25px;
+    margin-bottom: 12px;
+    list-style-type: none;
+
+   
+}
+
+.recipe{
+    /* background-color: white; */
+    height: 1339px;
+    width: 100%;
+    /* margin-top: 100px; */
+}
+/* .recipe-flex li{
+    margin: auto;
+} */
+.recipe-body, .howto{
+    margin: 50px;
+    
+}
+/* .howto{
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+    color: #CC7211;
+    padding-top: 7px;
+} */
+.recipe-body li, .recipe-body p, .last p{
+    font-family: 'IM Fell DW Pica SC', serif;
     font-size: 30px;
-    color: rgb(245, 79, 19);
-  margin-top: 40px;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  min-width: 600px;
- 
-}
-.instruction {
-margin-top: 200px;
-  
-
-}
-.ingredients{
-    margin-top: 20px;
-    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 256px;
+    width: 500px;
+    background-color: white;
+    border-radius: 100px;
     text-align: center;
-    /* inline-size:1000px; */
-    height: 600px;
-   min-height: 600px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 600px;
-    
+    padding: 84px;
 }
-.stick{
-    margin-right: auto;
-    margin-left: auto;
-    width: 60px;
-    height: 150px;
-    background: rgb(158, 114, 3);
-
-    margin-top: -6px;
+.last p{
+    margin-left: 295px;
 
 }
-.instructions{
-
-    font-size: 22px;
-    text-align: center;
-    min-width: 600px;
-    height: fit-content;
-    background-color: rgb(255, 255, 255);
-    margin-right: auto;
-    margin-left: auto;
-
+footer{
+    height: 220px;
 }
-
- .leftovers, .tips, .final{
-    font-size: 22px;
-    margin-top: 50px;
-    text-align: center;
-    min-width: 600px;
-    background-color: rgb(255, 255, 255);
-    margin-right: auto;
+.button{
+    width: 237px;
+    height: 61px;
+    background-color: #FFD166;
+    border-radius: 30px;
     margin-left: auto;
-    height: fit-content;
+    margin-right: auto;
+    margin-top: 127px;
+    box-shadow: 2px 5px 0px white;
+    text-decoration: none;
 }
-.final{
-    min-width: 600px;
-    margin-top: 10px;
+.button p{
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 30px;
+    margin: 73px;
+    padding-top: 9px;
+    color: white;
+    text-decoration: none;
+   
+}
+a{
+    text-decoration: none;
+}
+.button:hover{
+    background-color: #CC7211;
+    box-shadow: 2px 5px 0px #FFD166;
+}
+.button p:hover{
+    color: #FFD166;
 }
 .credit{
-    font-size: 16px;
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 20px;
+    margin: 50px;
 }
-.bold{
-    font-size: 30px;
-    color: rgb(245, 79, 19);
-    opacity: none;
-    position: relative;
+
+.recipe-flex{
+    display: flex;
+
 }
-.final2{
-    /* float: right; */
-    min-width: 600px;
-    margin-top: 10px;
+
+.recipe-img img{
+    width: 500px;
+    border-radius: 100px;
 }
-@media(max-width:800px){
-    .ingtitle, .instruction{
-        font-size: 40px;
+
+ol, .last{
+    color: #CC7211;
+}
+
+@media(max-width: 1400px){
+    .content{
+        flex-direction: column;
+        margin-left: 232px;
+        margin-right: 182px;
+      
     }
-}
-@media(min-width:1000px){
-    .final2, .final{
-width: 200px;
+    .block{
+        width: 1000px;
+        margin: auto;
     }
+    .left-img img{
+        width: 1000px;
+        height: 1200px;
+    }
+    .recipe-flex{
+        flex-direction: column;
+
+
+    }
+    .recipe-img img{
+        width: 1000px;
+    }
+    .scroll-down{
+        font-size: 34px;
+        margin-left: -71px;
+    }
+   
+
 }
+@media(max-width:1000px){
+    /* .header{
+        width: 800px;
+        padding-right: 434px;
+        height: 100px;
+    } */
+    .oval{
+        height: 120px;
+    }
+    
+    .upper{
+      font-size: 16px;
+    }
+    .upper h3{
+        margin-right: 0;
+        font-size: 24px;
+    }
+    .upper h4{
+        font-size: 34px;
+        margin-right: 20px;
+        
+    }
+    .title{
+        margin-top: 68px;
+        font-size: 58px;
+        margin-left: -43px;
+    }
+    .scroll-down{
+        font-size: 56px;
+        margin-top: 196px;
+        margin-left: -178px;
+    }
+    .right img{
+        margin-top: -171px;
+        width: 1000px;
+    }
+    .content{
+        display: unset;
+    }
+    .left-img img{
+        width: 1457px;
+        height: 1682px;
+        margin-top: 100px;
+        margin-left: 149px;
+       
+    }
+    .block{
+        width: 1500px;
+        padding-right: 252px;
+        height: 999px;
+    }
+    .description h3, .ingredient h3, .recipe h3{
+        font-size: 75px;
+       
+        padding-top: 20px;
+    }
+    .description p{
+        font-size: 56px;
+    
+    }
+    .ingredient p, .ingredient li{
+        font-size: 50px;
+    }
+    .recipe-img img{
+        width: 1540px;
+    }
+    .recipe-body li, .last p{
+        width: 851px;
+        font-size: 63px;
+
+    }
+    .button{
+        width: 557px;
+        height: 154px;
+        
+    }
+    .button p{
+        margin: 132px;
+        padding-top: 9px;
+        font-size: 95px;
+    }
+    }
